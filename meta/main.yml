@@ -1,14 +1,11 @@
 galaxy_info:
-  author: Eugene Zamriy
-  description: Installs MongoDB.org repository on EL 6/7
-  company: CloudLinux
+  author: Danilo Queiroz
+  description: Installs MongoDB-org-tools on Amazon Linux
+  company: Cliix
   license: MIT
   min_ansible_version: 2.1
   platforms:
-    - name: EL
-      versions:
-        - 6
-        - 7
+    - name: AWS
   galaxy_tags:
     - mongodb
     - mongo
