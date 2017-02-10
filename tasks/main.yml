@@ -8,7 +8,7 @@
   yum_repository:
     name: "mongodb-org-{{ mongodb_org_repo_version }}"
     description: "MongoDB {{ mongodb_org_repo_version }} Repository"
-    baseurl: "https://repo.mongodb.org/yum/amazon/2013.03/mongodb-org//{{ mongodb_org_repo_version }}/x86_64/~
+    baseurl: "https://repo.mongodb.org/yum/amazon/2013.03/mongodb-org//{{ mongodb_org_repo_version }}/x86_64/"
     gpgcheck: yes
     enabled: yes
     gpgkey: "{{ mongodb_org_repo_gpg_key }}"

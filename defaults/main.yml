@@ -1,2 +1,3 @@
 ---
 mongodb_org_repo_version: 3.3
+mongodb_org_repo_gpg_key: "https://www.mongodb.org/static/pgp/server-{{ mongodb_org_repo_version }}.asc"
